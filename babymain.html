@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebrating Baby - International Women's Day</title>
+  <link rel="stylesheet" href="babycss.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Celebrating Baby 💖</h1>
+    <p>Happy International Women's Day to the most amazing person in the world!</p>
+  </header>
+
+  <section id="about-her">
+    <h2>Why You're Incredible</h2>
+    <p>You are the most caring and beautiful person I know. Your smile lights up my world, and your strength inspires me every day. I succumb to your cuteness and cannot get enough. I miss you everyday more and more. I hope this can brighten your day and night, even when it feels alone. Here are just a few reasons why I adore you:</p>
+    <ul>
+      <li>You’re always going to be my calming medicine when my head feels chaotic.</li>
+      <li>Your intelligence is sexy and I love it.</li>
+      <li>You make my life brighter by just being in it.</li>
+    </ul>
+  </section>
+
+  <section id="memories">
+    <h2>My current favorites</h2>
+    <div class="gallery">
+      <img src="baby1.jpg" alt="Recent Favorite #1">
+      <img src="baby2.jpg" alt="Recent Favorite #2">
+      <img src="baby3.jpg" alt="Recent Favorite #3">
+    </div>
+  </section>
+
+  <section id="messages">
+    <h2>Messages for You</h2>
+    <p>Here are some little reminders of how much you mean to me:</p>
+    <div class="message-container">
+      <p>"You are my moon on the darkest nights."</p>
+      <p>"I cherish every memory with you and I hope we can continue to make more"</p>
+      <p>"You make me strive to be a better person each and every day."</p>
+    </div>
+  </section>
+
+  <section id="surprise">
+    <h2>Surprise for Baby</h2>
+    <button id="surprise-button" onclick="revealSurprise()">Click for a Surprise!</button>
+    <!-- GIF Popup -->
+    <div id="gif-popup" class="hidden">
+      <div class="popup-content">
+        <img src="babygif.gif" alt="Surprise GIF">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with love by Jun Jun for International Women's Day 2025.</p>
+  </footer>
+
+  <script>
+    function revealSurprise() {
+      document.getElementById('gif-popup').classList.remove('hidden');
+    }
+  </script>
+</script>
+</body>
+</html>
